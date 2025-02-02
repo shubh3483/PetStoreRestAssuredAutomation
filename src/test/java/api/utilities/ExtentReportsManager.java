@@ -36,7 +36,7 @@ public class ExtentReportsManager extends TestListenerAdapter {
             e.printStackTrace();
         }
 
-        sparkReporter.config().setDocumentTitle("InternetBanking Test Project"); // Title of Report
+        sparkReporter.config().setDocumentTitle("Pets Rest Assured Framework"); // Title of Report
         sparkReporter.config().setReportName("Functional Test Automation Report"); // Name of report
         sparkReporter.config().setTheme(Theme.STANDARD);
 
